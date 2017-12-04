@@ -8,9 +8,9 @@ exports.up = function(knex, Promise) {
       table.string('Title');
       table.string('authorLastname');
       table.string('authorFirstname');
-      table.integer('yearPublisehd');
+      table.integer('yearPublished');
       table.string('publisher');
-      table.string('ISBN');
+      table.string('isbn');
 
     });
 };
