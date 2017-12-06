@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+li {
+  padding: 0
+}
+/* NavBar style*/
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  background-image: url('./images/chance-anderson-210764.jpg');
+}
+
+.bar-links {
+
+  padding-left: 0;
+  background-color: cyan;
+}
+
+
+
+
+/* NavBar style ends*/

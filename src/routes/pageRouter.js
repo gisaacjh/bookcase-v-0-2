@@ -16,9 +16,4 @@ pageRouter
     res.render('about.ejs');
   });
 
-pageRouter
-  .get('/sign-up', (req, res) => {
-    res.render('signUp.ejs');
-  });
-
   module.exports = pageRouter;
