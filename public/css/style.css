@@ -6,26 +6,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  
 }
 
 li {
   padding: 0
 }
 /* NavBar style*/
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  height: 200px;
-  background-image: url('./images/chance-anderson-210764.jpg');
+.header {
+  height: 150px;
+  background-image: url('../images/chance-anderson-210764.jpg');
+  background-size: cover;
+  background-position: center;
+
+
 }
 
-.bar-links {
-
-  padding-left: 0;
-  background-color: cyan;
+.modal-container {
+  position: relative;
 }
-
-
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
 
 
 /* NavBar style ends*/
