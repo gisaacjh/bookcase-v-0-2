@@ -1,31 +1,34 @@
 import React, { Component } from 'react';
+import { Navbar, NavItem, Dropdown, Button, Icon } from 'react-materialize';
 import { Link } from 'react-router-dom';
-import { Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-
 
 class NavBar extends Component {
-  handleSelect(eventKey) {
-     event.preventDefault();
-     alert(`selected ${eventKey}`);
-   }
+
   render () {
     return (
-        <Nav bsStyle="tabs" bsSize="large "activeKey="1" onSelect={this.handleSelect}>
-               <NavItem eventKey="1" href="/components/landing">About</NavItem>
-               <NavDropdown eventKey="2" title="Category" id="nav-dropdown">
-                 <MenuItem eventKey="2.1">Political Science</MenuItem>
-                 <MenuItem eventKey="2.2">Literature</MenuItem>
-                 <MenuItem eventKey="2.3">Anthropology</MenuItem>
-                 <MenuItem eventKey="2.4">history</MenuItem>
-                 <MenuItem divider />
-                 <MenuItem eventKey="2.5">All categories</MenuItem>
-               </NavDropdown>
-               <NavItem eventKey="3" title="Item">Log In</NavItem>
-               <LinkContainer to='/components/signUp'>
-                  <NavItem eventKey="4">Sign Up</NavItem>
-               </LinkContainer>
-        </Nav>
+      <div className="header">
+        <Navbar className="green darken-4 header" brand='Bookcase' right>
+          <NavItem>About</NavItem>
+          <NavItem>
+            <Dropdown trigger={<Button>Categories<Icon right>arrow_drop_down</Icon></Button>}>
+                	<NavItem>
+                		Political Science
+                	</NavItem>
+                	<NavItem>
+                		history
+                	</NavItem>
+                	<NavItem>
+                		Filosophy
+                	</NavItem>
+                  <NavItem>
+                		All Categories
+                	</NavItem>
+            </Dropdown>
+          </NavItem>
+          <NavItem><Link to="/components/logIn">Log In</Link></NavItem>
+          <NavItem><Link to="/components/signUp">Sign Up</Link></NavItem>
+        </Navbar>
+      </div>
     );
   }
 };

@@ -6,28 +6,47 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  
+
 }
 
-li {
-  padding: 0
-}
 /* NavBar style*/
 .header {
-  height: 150px;
-  background-image: url('../images/chance-anderson-210764.jpg');
-  background-size: cover;
-  background-position: center;
-
+  /*background-image: url('../images/chance-anderson-210764.jpg');*/
+  /*background-size: cover;*/
+  height: 100px;
 
 }
-
-.modal-container {
-  position: relative;
-}
-.modal-container .modal, .modal-container .modal-backdrop {
-  position: absolute;
-}
-
 
 /* NavBar style ends*/
+
+/*Sign up style*/
+
+.sign-up-content {
+  padding: 20px;
+  background-image: url('../images/parker-byrd-139348.jpg');
+  background-size: cover;
+}
+
+.sign-up-form {
+  opacity: .90;
+}
+
+.link-join-us {
+  color: white;
+}
+/*Sign up style*/
+
+/*Log in style*/
+
+.login-content {
+  padding: 20px;
+}
+
+.link-log-in {
+  color: white;
+}
+/*Log in style*/
+
+/*User View style*/
+
+/*User View Style*/

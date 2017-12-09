@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import Landing from './components/landing.js';
+import ContentApp from './components/contentApp.js';
 import NavBar from './components/navBar.js';
-import SignUpView from './components/signUp.js';
-
 
 class App extends React.Component {
   render () {
@@ -13,15 +11,8 @@ class App extends React.Component {
             <header className="header">
               <NavBar />
             </header>
-              <div>
-              <Switch>
-                <Route exact path="/components/landing" component={Landing} />
-                <Route exact path="/components/signUp" component={SignUpView} />
-                <Routh exact path="/components/projectViews" component={ProjectsView} />
-              </Switch>
-              </div>
-              <div>
-
+              <div className="content-app">
+                <ContentApp />
               </div>
            </div>
   }
