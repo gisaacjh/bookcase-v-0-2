@@ -62,12 +62,14 @@ body {
   color: white;
 }
 
-.hidden {
-  display: none;
-}
-
-.show {
-  display: block;
-}
 
 /*User View Style*/
+
+/*Project View Style*/
+
+.project-view-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/*Project Style View*/

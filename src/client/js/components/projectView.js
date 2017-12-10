@@ -5,8 +5,10 @@ import { Link } from 'react-router-dom';
 class ProjectsView extends Component {
   render () {
     return (
-      <div>
-        hi
+      <div className="project-view-content">
+        <form>
+          <textarea placeholder="Write your notes here"></textarea>
+        </form>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Chip, Tag, Card, Button, Modal } from 'react-materialize';
+import { Row, Col, Chip, Tag, Card, Button, Modal, Input } from 'react-materialize';
 
 
 class UserView extends Component {
@@ -38,12 +38,13 @@ class UserView extends Component {
           </div>
         </div>
         <div>
-        <Modal className='hidden'
-          header='Modal Header'
-          trigger={<Button>MODAL</Button>}>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <Modal
+          trigger={<Button>Create New Research Project</Button>}>
+          <Row>
+            <Input type="text" s={6} label="Title" />
+            <Button><Link to="/components/projectView" className="link-user-view">Create</Link></Button>
+          </Row>
         </Modal>
-        <Button className="modal-create-new-project">Create New Project</Button>
         </div>
       </div>
     );

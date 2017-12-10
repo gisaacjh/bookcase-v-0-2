@@ -19118,8 +19118,12 @@ var ProjectsView = function (_Component) {
   ProjectsView.prototype.render = function render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      null,
-      'hi'
+      { className: 'project-view-content' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'form',
+        null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { placeholder: 'Write your notes here' })
+      )
     );
   };
 
@@ -19287,23 +19291,26 @@ var UserView = function (_Component) {
         null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_2_react_materialize__["Modal"],
-          { className: 'hidden',
-            header: 'Modal Header',
+          {
             trigger: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_2_react_materialize__["Button"],
               null,
-              'MODAL'
+              'Create New Research Project'
             ) },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
+            __WEBPACK_IMPORTED_MODULE_2_react_materialize__["Row"],
             null,
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_materialize__["Input"], { type: 'text', s: 6, label: 'Title' }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_2_react_materialize__["Button"],
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+                { to: '/components/projectView', className: 'link-user-view' },
+                'Create'
+              )
+            )
           )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_materialize__["Button"],
-          { className: 'modal-create-new-project' },
-          'Create New Project'
         )
       )
     );
