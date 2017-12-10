@@ -19410,7 +19410,11 @@ var ReadingView = function (_Component) {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "div",
       { className: "reading-view-content" },
-      "hola"
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "p",
+        null,
+        "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor inreprehenderit involuptate velit esse cillum dolore eu fugiat nulla pariatur  Excepteursint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.\""
+      )
     );
   };
 
@@ -19430,11 +19434,13 @@ var ReadingView = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_materialize__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_router_dom__ = __webpack_require__(9);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -19459,7 +19465,7 @@ var CategoriesView = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            Link,
+            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
             { to: '/components/readingView' },
             'libro'
           )
@@ -19468,7 +19474,7 @@ var CategoriesView = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            Link,
+            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
             { to: '/components/readingView' },
             'librito'
           )
@@ -19477,7 +19483,7 @@ var CategoriesView = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            Link,
+            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
             { to: '/components/readingView' },
             'librote'
           )
@@ -19486,7 +19492,7 @@ var CategoriesView = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            Link,
+            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
             { to: '/components/readingView' },
             'libroteto'
           )
