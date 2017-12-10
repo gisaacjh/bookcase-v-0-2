@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <div className="header">
         <Navbar className="green darken-4 header" brand='Bookcase' right>
-          <NavItem>About</NavItem>
+          <NavItem><Link to="/components/aboutView">About</Link></NavItem>
           <NavItem>
             <Dropdown trigger={<Button>Categories<Icon right>arrow_drop_down</Icon></Button>}>
                 	<NavItem>
@@ -25,6 +25,8 @@ class NavBar extends Component {
                 	</NavItem>
             </Dropdown>
           </NavItem>
+          <NavItem><Link to="/components/userView">You Profile</Link></NavItem>
+          <NavItem><Link to="/components/userView">You Profile</Link></NavItem>
           <NavItem><Link to="/components/logIn">Log In</Link></NavItem>
           <NavItem><Link to="/components/signUp">Sign Up</Link></NavItem>
         </Navbar>

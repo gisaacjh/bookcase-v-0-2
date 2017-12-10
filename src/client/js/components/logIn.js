@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Input, Button } from 'react-materialize';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
+
 
 class LogIn extends Component {
   render () {
@@ -11,7 +12,7 @@ class LogIn extends Component {
           <Input type="password" label="password" s={12} />
         </Row>
         <div>
-          <Button className="green accent-4"><Link to="/components/userView" className="link-log-in">entry!</Link></Button>
+          <Button className="green accent-4"><Link to="/components/userView" className="link-log-in">entry</Link></Button>
         </div>
       </div>
     );

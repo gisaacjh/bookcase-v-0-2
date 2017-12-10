@@ -11,10 +11,7 @@ body {
 
 /* NavBar style*/
 .header {
-  /*background-image: url('../images/chance-anderson-210764.jpg');*/
-  /*background-size: cover;*/
   height: 100px;
-
 }
 
 /* NavBar style ends*/
@@ -48,5 +45,29 @@ body {
 /*Log in style*/
 
 /*User View style*/
+
+.user-view-content {
+  padding: 20px;
+}
+
+.show-projects {
+  padding: 30px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.link-user-view {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
 
 /*User View Style*/

@@ -6,7 +6,7 @@ class ProjectsView extends Component {
   render () {
     return (
       <div>
-
+        hi
       </div>
     );
   }
