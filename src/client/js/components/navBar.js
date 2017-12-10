@@ -21,7 +21,7 @@ class NavBar extends Component {
                 		Filosophy
                 	</NavItem>
                   <NavItem>
-                		All Categories
+                		<Link to="/components/categoriesView" className="link-categories-view">All Categories</Link>
                 	</NavItem>
             </Dropdown>
           </NavItem>
