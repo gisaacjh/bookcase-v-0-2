@@ -3331,6 +3331,11 @@ var NavBar = function (_Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
               null,
+              'Art'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
+              null,
               'Political Science'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -3341,7 +3346,7 @@ var NavBar = function (_Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
               null,
-              'Filosophy'
+              'Philosophy'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],

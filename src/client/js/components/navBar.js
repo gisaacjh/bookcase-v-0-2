@@ -11,14 +11,17 @@ class NavBar extends Component {
           <NavItem><Link to="/components/aboutView">About</Link></NavItem>
           <NavItem>
             <Dropdown trigger={<Button>Categories<Icon right>arrow_drop_down</Icon></Button>}>
-                	<NavItem>
+                  <NavItem>
+                    Art
+                  </NavItem>
+                  <NavItem>
                 		Political Science
                 	</NavItem>
                 	<NavItem>
                 		history
                 	</NavItem>
                 	<NavItem>
-                		Filosophy
+                		Philosophy
                 	</NavItem>
                   <NavItem>
                 		<Link to="/components/categoriesView" className="link-categories-view">All Categories</Link>
