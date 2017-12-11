@@ -26,7 +26,6 @@ class NavBar extends Component {
             </Dropdown>
           </NavItem>
           <NavItem><Link to="/components/userView">You Profile</Link></NavItem>
-          <NavItem><Link to="/components/userView">You Profile</Link></NavItem>
           <NavItem><Link to="/components/logIn">Log In</Link></NavItem>
           <NavItem><Link to="/components/signUp">Sign Up</Link></NavItem>
         </Navbar>

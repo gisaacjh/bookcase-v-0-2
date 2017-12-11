@@ -24,14 +24,14 @@ class UserView extends Component {
         <div className="show-projects">
           <div>
             <Col m={6} s={12}>
-              <Card className='blue-grey darken-1' textClassName='white-text' title='A Thanatos essay' actions={[<a href='#'>Edit</a>]}>
+              <Card className='blue-grey darken-1' textClassName='white-text' title='A Thanatos essay' actions={[<Link to="/components/projectView">Edit</Link>]}>
 
               </Card>
             </Col>
           </div>
           <div>
             <Col m={6} s={12}>
-              <Card className='blue-grey darken-1' textClassName='white-text' title='La femme fatal' actions={[<a href='#'>Edit</a>]}>
+              <Card className='blue-grey darken-1' textClassName='white-text' title='La femme fatal' actions={[<Link to="/components/projectView">Edit</Link>]}>
 
                 </Card>
            </Col>

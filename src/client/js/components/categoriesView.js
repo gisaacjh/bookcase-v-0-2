@@ -7,10 +7,10 @@ class CategoriesView extends Component {
     return (
       <div className="categories-view-content">
       <Collection>
-        <CollectionItem><Link to="/components/readingView">libro</Link></CollectionItem>
-        <CollectionItem><Link to="/components/readingView">librito</Link></CollectionItem>
-        <CollectionItem><Link to="/components/readingView">librote</Link></CollectionItem>
-        <CollectionItem><Link to="/components/readingView">libroteto</Link></CollectionItem>
+        <CollectionItem><Link to="/components/readingView">León-Portilla, Miguel, La Filosofía náhuatl: estudiada en sus fuentes</Link></CollectionItem>
+        <CollectionItem><Link to="/components/readingView">Fragio, Alberto, Paradigmas para una metaforología del cosmos: Hans Blumenberg y las metáforas contemporáneas del universo</Link></CollectionItem>
+        <CollectionItem><Link to="/components/readingView">Méndez Rubio, Antonio, Comunicación musical y cultura popular: una introducción crítica</Link></CollectionItem>
+        <CollectionItem><Link to="/components/readingView">"Argod, Pascale, The art of sketching: 400 years of travel diaries"</Link></CollectionItem>
       </Collection>
       </div>
     );
