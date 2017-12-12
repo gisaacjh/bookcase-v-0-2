@@ -7,8 +7,8 @@ exports.up = function(knex, Promise) {
       table.string('username');
       table.string('firstname');
       table.string('lastname');
-      table.string('password');
-      table.string('email');
+      table.string('password').notNullable();
+      table.string('email').notNullable();
       table.integer('age');
       table.string('institute');
       table.string('occupation');

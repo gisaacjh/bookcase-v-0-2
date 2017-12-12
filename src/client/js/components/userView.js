@@ -24,14 +24,14 @@ class UserView extends Component {
         <div className="show-projects">
           <div>
             <Col m={6} s={12}>
-              <Card className='blue-grey darken-1' textClassName='white-text' title='A Thanatos essay' actions={[<Link to="/components/projectView">Edit</Link>]}>
+              <Card className='blue-grey darken-1' textClassName='white-text' title='A Thanatos essay' actions={[<Link to="/projectView">Edit</Link>]}>
 
               </Card>
             </Col>
           </div>
           <div>
             <Col m={6} s={12}>
-              <Card className='blue-grey darken-1' textClassName='white-text' title='La femme fatal' actions={[<Link to="/components/projectView">Edit</Link>]}>
+              <Card className='blue-grey darken-1' textClassName='white-text' title='La femme fatal' actions={[<Link to="/projectView">Edit</Link>]}>
 
                 </Card>
            </Col>
@@ -42,7 +42,7 @@ class UserView extends Component {
           trigger={<Button>Create New Research Project</Button>}>
           <Row>
             <Input type="text" s={6} label="Title" />
-            <Button><Link to="/components/projectView" className="link-user-view">Create</Link></Button>
+            <Button><Link to="/projectView" className="link-user-view">Create</Link></Button>
           </Row>
         </Modal>
         </div>

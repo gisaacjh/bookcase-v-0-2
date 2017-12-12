@@ -2,15 +2,13 @@
 exports.up = function(knex, Promise) {
   return knex
     .schema
-    .createTable('projects', table => {
+    .createTable('project_documentsTable', table => {
       table.increments();
-      table.string('title').notNullable();
-      table.text('notes');
     });
 };
 
 exports.down = function(knex, Promise) {
   return knex
     .schema
-    .dropTableIfExists('projects')
+    .dropTableIfExists('project_documentsTable');
 };

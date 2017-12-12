@@ -3309,7 +3309,7 @@ var NavBar = function (_Component) {
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/aboutView' },
+            { to: '/aboutView' },
             'About'
           )
         ),
@@ -3353,7 +3353,7 @@ var NavBar = function (_Component) {
               null,
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-                { to: '/components/categoriesView', className: 'link-categories-view' },
+                { to: '/categoriesView', className: 'link-categories-view' },
                 'All Categories'
               )
             )
@@ -3364,7 +3364,7 @@ var NavBar = function (_Component) {
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/userView' },
+            { to: '/userView' },
             'You Profile'
           )
         ),
@@ -3373,7 +3373,7 @@ var NavBar = function (_Component) {
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/logIn' },
+            { to: '/logIn', className: 'light-green darken-3' },
             'Log In'
           )
         ),
@@ -3382,7 +3382,7 @@ var NavBar = function (_Component) {
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/signUp' },
+            { to: '/signUp', className: 'deep-orange accent-3' },
             'Sign Up'
           )
         )
@@ -14418,14 +14418,14 @@ var ContentApp = function (_Component) {
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["d" /* Switch */],
         null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/landing', component: __WEBPACK_IMPORTED_MODULE_2__landing_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/signUp', component: __WEBPACK_IMPORTED_MODULE_4__signUp_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/projectView', component: __WEBPACK_IMPORTED_MODULE_5__projectView_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/logIn', component: __WEBPACK_IMPORTED_MODULE_6__logIn_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/userView', component: __WEBPACK_IMPORTED_MODULE_7__userView_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/aboutView', component: __WEBPACK_IMPORTED_MODULE_8__aboutView_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/readingView', component: __WEBPACK_IMPORTED_MODULE_9__readingView_js__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/components/categoriesView', component: __WEBPACK_IMPORTED_MODULE_10__categoriesView_js__["a" /* default */] })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/', component: __WEBPACK_IMPORTED_MODULE_2__landing_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/signUp', component: __WEBPACK_IMPORTED_MODULE_4__signUp_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/projectView', component: __WEBPACK_IMPORTED_MODULE_5__projectView_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/logIn', component: __WEBPACK_IMPORTED_MODULE_6__logIn_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/userView', component: __WEBPACK_IMPORTED_MODULE_7__userView_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/aboutView', component: __WEBPACK_IMPORTED_MODULE_8__aboutView_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/readingView', component: __WEBPACK_IMPORTED_MODULE_9__readingView_js__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/categoriesView', component: __WEBPACK_IMPORTED_MODULE_10__categoriesView_js__["a" /* default */] })
       )
     );
   };
@@ -14444,11 +14444,16 @@ var ContentApp = function (_Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_materialize__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_router_dom__ = __webpack_require__(8);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
 
 
 
@@ -14464,8 +14469,54 @@ var Landing = function (_Component) {
   Landing.prototype.render = function render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      null,
-      'hi world'
+      { className: 'landing-content' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'rigth-info' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'h2',
+          null,
+          'Bookcase'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          { className: 'text-style' },
+          'Bookcase es una aplicaci\xF3n pensada para estudiantes o profesores de humanidades que busquen un espacio donde puedan consultar documentos y realizar anotaciones al mismo tiempo.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'h4',
+          null,
+          '\xBFC\xF3mo funciona?'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          { className: 'text-style' },
+          'Cuando un usuario se registra puede crear un proyecto de investigaci\xF3n que le permite guardar documentos para leerlos cuando quiera, adem\xE1s de agregar anotaciones correspondientes a sus lecturas.  '
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'left-info' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'login-content' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Row"],
+            { className: 'grey darken-4 sign-up-form' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'email', label: 'Email', s: 12 }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'password', label: 'password', s: 12 })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Button"],
+            { className: 'green accent-4' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+              { to: '/userView', className: 'link-log-in' },
+              'entry'
+            )
+          )
+        )
+      )
     );
   };
 
@@ -19059,14 +19110,14 @@ var SignUpView = function (_Component) {
       { className: 'sign-up-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Row"],
-        { className: 'grey lighten-2 sign-up-form' },
+        { className: 'grey darken-4 sign-up-form' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'text', s: 6, label: 'Username' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'text', s: 6, label: 'First Name' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'text', s: 6, label: 'Last Name' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'password', label: 'password', s: 12 }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'email', label: 'Email', s: 12 }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'number', label: 'Age', s: 12 }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'text', placeholder: 'Write \'none\', if this doesn\'t apply', label: 'Institute', s: 12 }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'text', label: 'Institute', s: 12 }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'text', s: 6, label: 'Occupation' })
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -19077,7 +19128,7 @@ var SignUpView = function (_Component) {
           { className: 'deep-orange accent-3' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/userView', className: 'link-join-us' },
+            { to: '/userView', className: 'link-join-us' },
             'Join Us'
           )
         )
@@ -19126,9 +19177,35 @@ var ProjectsView = function (_Component) {
       'div',
       { className: 'project-view-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'form',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { placeholder: 'Write your notes here' })
+        'div',
+        { className: 'left-project-view' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'h2',
+          null,
+          'Revoluci\xF3n Mexicana'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'form',
+          null,
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { className: 'text-area', rows: '2', placeholder: 'Write your notes here' })
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'rigth-project-view' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'files-project-view' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Collection"],
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
+              { className: 'deep-orange accent-3' },
+              'Add document +'
+            )
+          )
+        )
       )
     );
   };
@@ -19175,7 +19252,7 @@ var LogIn = function (_Component) {
       { className: 'login-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Row"],
-        { className: 'grey lighten-2 sign-up-form' },
+        { className: 'grey darken-4 sign-up-form' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'email', label: 'Email', s: 12 }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'password', label: 'password', s: 12 })
       ),
@@ -19187,7 +19264,7 @@ var LogIn = function (_Component) {
           { className: 'green accent-4' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/userView', className: 'link-log-in' },
+            { to: '/userView', className: 'link-log-in' },
             'entry'
           )
         )
@@ -19273,7 +19350,7 @@ var UserView = function (_Component) {
             { m: 6, s: 12 },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_materialize__["Card"], { className: 'blue-grey darken-1', textClassName: 'white-text', title: 'A Thanatos essay', actions: [__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: '/components/projectView' },
+                { to: '/projectView' },
                 'Edit'
               )] })
           )
@@ -19286,7 +19363,7 @@ var UserView = function (_Component) {
             { m: 6, s: 12 },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_materialize__["Card"], { className: 'blue-grey darken-1', textClassName: 'white-text', title: 'La femme fatal', actions: [__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: '/components/projectView' },
+                { to: '/projectView' },
                 'Edit'
               )] })
           )
@@ -19312,7 +19389,7 @@ var UserView = function (_Component) {
               null,
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                { to: '/components/projectView', className: 'link-user-view' },
+                { to: '/projectView', className: 'link-user-view' },
                 'Create'
               )
             )
@@ -19357,16 +19434,25 @@ var AboutView = function (_Component) {
   AboutView.prototype.render = function render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      null,
+      { className: 'about-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'header',
         { className: 'title' },
         'About Us'
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'p',
-        { className: 'flow-text' },
-        'Lorem Ipsum bashfkjash fkjahsjfahsjh asjfjasf jahsfjasfkaf aueha'
+        'div',
+        { className: 'about-info' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          { className: 'flow-text' },
+          'Queremos solucionar la falta de fuentes electr\xF3nicas de calidad en el \xE1rea de humanidades. El tiempo dedicado a la b\xFAsqueda de documentos para cualquier tipo de investigaci\xF3n ocupa un gran porcentaje del tiempo del investigador.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          'Este tiempo perdido se puede reducir enormemente, por eso Bookcase busca ser una herramienta en cualquier tipo de investigaci\xF3n.'
+        )
       )
     );
   };
@@ -19385,11 +19471,14 @@ var AboutView = function (_Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_materialize__);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -19404,12 +19493,40 @@ var ReadingView = function (_Component) {
 
   ReadingView.prototype.render = function render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "div",
-      { className: "reading-view-content" },
+      'div',
+      { className: 'reading-view-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "p",
-        null,
-        "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor inreprehenderit involuptate velit esse cillum dolore eu fugiat nulla pariatur  Excepteursint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.\""
+        'div',
+        { className: 'title-document' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'h2',
+          null,
+          'Le\xF3n-Portilla, Miguel, La Filosof\xEDa n\xE1huatl: estudiada en sus fuentes'
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'document-area' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor inreprehenderit involuptate velit esse cillum dolore eu fugiat nulla pariatur  Excepteursint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,'
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Button"],
+        { className: 'deep-orange accent-3' },
+        'Add to a Project'
       )
     );
   };
@@ -19455,41 +19572,50 @@ var CategoriesView = function (_Component) {
       'div',
       { className: 'categories-view-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'h2',
+          null,
+          'All Categories'
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Collection"],
         null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          null,
+          { className: 'grey darken-4 sign-up-for' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/readingView' },
+            { to: '/readingView', className: 'read-links' },
             'Le\xF3n-Portilla, Miguel, La Filosof\xEDa n\xE1huatl: estudiada en sus fuentes'
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          null,
+          { className: 'grey darken-4 sign-up-for' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/readingView' },
+            { to: '/readingView', className: 'read-links' },
             'Fragio, Alberto, Paradigmas para una metaforolog\xEDa del cosmos: Hans Blumenberg y las met\xE1foras contempor\xE1neas del universo'
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          null,
+          { className: 'grey darken-4 sign-up-for' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/readingView' },
+            { to: '/readingView', className: 'read-links' },
             'M\xE9ndez Rubio, Antonio, Comunicaci\xF3n musical y cultura popular: una introducci\xF3n cr\xEDtica'
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          null,
+          { className: 'grey darken-4 sign-up-for' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/components/readingView' },
+            { to: '/readingView', className: 'read-links' },
             '"Argod, Pascale, The art of sketching: 400 years of travel diaries"'
           )
         )

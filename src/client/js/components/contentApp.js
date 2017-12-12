@@ -16,14 +16,14 @@ class ContentApp extends Component {
     return (
       <div>
       <Switch>
-        <Route exact path="/components/landing" component={Landing} />
-        <Route exact path="/components/signUp" component={SignUpView} />
-        <Route exact path="/components/projectView" component={ProjectsView} />
-        <Route exact path="/components/logIn" component={LogIn} />
-        <Route exact path="/components/userView" component={UserView} />
-        <Route exact path="/components/aboutView" component={AboutView} />
-        <Route exact path="/components/readingView" component={ReadingView} />
-        <Route exact path="/components/categoriesView" component={CategoriesView} />
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/signUp" component={SignUpView} />
+        <Route exact path="/projectView" component={ProjectsView} />
+        <Route exact path="/logIn" component={LogIn} />
+        <Route exact path="/userView" component={UserView} />
+        <Route exact path="/aboutView" component={AboutView} />
+        <Route exact path="/readingView" component={ReadingView} />
+        <Route exact path="/categoriesView" component={CategoriesView} />
       </Switch>
       </div>
     );

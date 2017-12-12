@@ -1,18 +1,17 @@
 const Router = require('express').Router;
-
 //Iniciar el Router
 const apiRouter = Router();
 
+//Modelos
+
+const Project_Documents = require("../models/project_documents.js");
+const Documents = require("../models/documents.js");
+
 //Mis rutas que responen JSON
 function getAllDocuments (req, res) {
-  const db = req.app.locals.db;
+  Documents.query().eager("project_documentsTable").then(data => res.json(data));
 
-  db
-    .select()
-    .table('documents')
-    .then(data => res.json(data));
 }
-
 
 apiRouter
   .get('/documents', getAllDocuments);
