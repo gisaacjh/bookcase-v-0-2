@@ -1,7 +1,7 @@
 const express = require('express');
 const { Model } = require('objection');
 const ejs = require('ejs');
-
+const bodyParser = require('body-parser');
 
 
 const pageRouter = require('./src/routes/pageRouter.js');
@@ -23,9 +23,12 @@ app.engine('ejs', ejs.renderFile);
 app.set('view engine', 'ejs');
 app.set('views', `${__dirname}/src/views`);
 
+// JSON parse configuration
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 
-//Aqui van mis vistas estáticas
+//Aqui van mis archivos estáticas
 app.use(express.static(`${__dirname}/public`))
 
 
