@@ -1,5 +1,5 @@
 const express = require('express');
-const fs = require('fs-extra');
+const { Model } = require('objection');
 const ejs = require('ejs');
 
 
@@ -13,12 +13,17 @@ const dbConfigObj = require('./knexfile.js');
 const app = express();
 
 const appDb = connectToDb(dbConfigObj.development);
+
+Model.knex(appDb);
+
 app.locals.db = appDb;
 
 // Configuración del Motor de la plantillas EJS
 app.engine('ejs', ejs.renderFile);
 app.set('view engine', 'ejs');
 app.set('views', `${__dirname}/src/views`);
+
+
 
 //Aqui van mis vistas estáticas
 app.use(express.static(`${__dirname}/public`))

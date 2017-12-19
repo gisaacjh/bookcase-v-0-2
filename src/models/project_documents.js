@@ -9,7 +9,7 @@ class Project_Documents extends Model {
 
     return {
       documents: {
-        relation: Model.HasManyRelation,
+        relation: Model.BelongsToOneRelation,
         modelClass: documents,
         join: {
           from: 'project_documentsTable.id_documents',

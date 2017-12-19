@@ -7,7 +7,8 @@ const dataRows = [
     email: 'bartorres@gmail.com',
     age: '54',
     institute: 'UNAM',
-    occupation: 'Professor'
+    occupation: 'Professor',
+    id: 1
   },
   {
     username: 'Brainiac',
@@ -17,7 +18,8 @@ const dataRows = [
     email: 'heri@gmail.com',
     age: '22',
     institute: 'COLMEX',
-    occupation: 'student'
+    occupation: 'student',
+    id: 2
   }
 ];
 
