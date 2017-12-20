@@ -224,9 +224,10 @@ height: 100vh;
   height: 100vh;
   padding: 20px;
   color: #C5E1A5;
-  background-image: url('../images/patrik-gothe-444.jpg');
+  background-color: #081A21;
+  /*background-image: url('../images/patrik-gothe-444.jpg');
   background-size:top;
-  background-attachment:fixed;
+  background-attachment:fixed;*/
 }
 .categories-back {
   height: 90%;
