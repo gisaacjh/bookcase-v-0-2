@@ -7,30 +7,30 @@ class NavBar extends Component {
   render () {
     return (
       <div className="header">
-        <Navbar className="green darken-4 header" brand='Bookcase' right>
+        <Navbar className="green darken-4 header navblock" brand='Bookcase' right>
           <NavItem><Link to="/aboutView">About</Link></NavItem>
           <NavItem>
             <Dropdown trigger={<Button>Categories<Icon right>arrow_drop_down</Icon></Button>}>
-                  <NavItem>
+                  <NavItem className="dropdown">
                     Art
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="dropdown">
                 		Political Science
                 	</NavItem>
-                	<NavItem>
+                	<NavItem className="dropdown">
                 		history
                 	</NavItem>
-                	<NavItem>
+                	<NavItem className="dropdown">
                 		Philosophy
                 	</NavItem>
-                  <NavItem>
-                		<Link to="/categoriesView" className="link-categories-view">All Categories</Link>
+                  <NavItem className="dropdown">
+                		<Link to="/categoriesView" className="link-categories-view">All Documents</Link>
                 	</NavItem>
             </Dropdown>
           </NavItem>
           <NavItem><Link to="/userView">You Profile</Link></NavItem>
-          <NavItem><Link to="/logIn" className="light-green darken-3">Log In</Link></NavItem>
-          <NavItem><Link to="/signUp" className="deep-orange accent-3">Sign Up</Link></NavItem>
+          <NavItem><Link to="/logIn" className="light-green darken-3 login-boton">Log In</Link></NavItem>
+          <NavItem><Link to="/signUp" className="deep-orange accent-3 signup-boton">Sign Up</Link></NavItem>
         </Navbar>
       </div>
     );

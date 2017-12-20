@@ -8,13 +8,13 @@ class Landing extends Component {
       <div className="landing-content">
         <div className="rigth-info">
           <h2>Bookcase</h2>
-          <p className="text-style">Bookcase es una aplicación pensada para estudiantes o profesores de humanidades que busquen un espacio donde puedan consultar documentos y realizar anotaciones al mismo tiempo.</p>
+          <p className="text-style">Bookcase es una aplicación pensada para estudiantes y profesores de humanidades que busquen un espacio donde puedan consultar documentos de lectura y realizar anotaciones al mismo tiempo.</p>
           <h4>¿Cómo funciona?</h4>
           <p className="text-style">Cuando un usuario se registra puede crear un proyecto de investigación que le permite guardar documentos para leerlos cuando quiera, además de agregar anotaciones correspondientes a sus lecturas.  </p>
         </div>
         <div className="left-info">
-          <div className="login-content">
-            <Row className="grey darken-4 sign-up-form">
+          <div className="login-content first-login">
+            <Row className="grey darken-4 sign-up-form login-landing">
               <Input type="email" label="Email" s={12} />
               <Input type="password" label="password" s={12} />
             </Row>

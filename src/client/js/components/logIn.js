@@ -6,7 +6,7 @@ import { Link, Route } from 'react-router-dom';
 class LogIn extends Component {
   render () {
     return (
-      <div className="login-content">
+      <div className="login-content login-view">
         <Row className="grey darken-4 sign-up-form">
           <Input type="email" label="Email" s={12} />
           <Input type="password" label="password" s={12} />

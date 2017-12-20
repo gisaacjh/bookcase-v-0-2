@@ -3713,7 +3713,7 @@ var NavBar = function (_Component) {
       { className: 'header' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Navbar"],
-        { className: 'green darken-4 header', brand: 'Bookcase', right: true },
+        { className: 'green darken-4 header navblock', brand: 'Bookcase', right: true },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
           null,
@@ -3740,31 +3740,31 @@ var NavBar = function (_Component) {
               ) },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
-              null,
+              { className: 'dropdown' },
               'Art'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
-              null,
+              { className: 'dropdown' },
               'Political Science'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
-              null,
+              { className: 'dropdown' },
               'history'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
-              null,
+              { className: 'dropdown' },
               'Philosophy'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_1_react_materialize__["NavItem"],
-              null,
+              { className: 'dropdown' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
                 { to: '/categoriesView', className: 'link-categories-view' },
-                'All Categories'
+                'All Documents'
               )
             )
           )
@@ -3783,7 +3783,7 @@ var NavBar = function (_Component) {
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/logIn', className: 'light-green darken-3' },
+            { to: '/logIn', className: 'light-green darken-3 login-boton' },
             'Log In'
           )
         ),
@@ -3792,7 +3792,7 @@ var NavBar = function (_Component) {
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/signUp', className: 'deep-orange accent-3' },
+            { to: '/signUp', className: 'deep-orange accent-3 signup-boton' },
             'Sign Up'
           )
         )
@@ -14481,7 +14481,7 @@ var Landing = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           { className: 'text-style' },
-          'Bookcase es una aplicaci\xF3n pensada para estudiantes o profesores de humanidades que busquen un espacio donde puedan consultar documentos y realizar anotaciones al mismo tiempo.'
+          'Bookcase es una aplicaci\xF3n pensada para estudiantes y profesores de humanidades que busquen un espacio donde puedan consultar documentos de lectura y realizar anotaciones al mismo tiempo.'
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'h4',
@@ -14499,10 +14499,10 @@ var Landing = function (_Component) {
         { className: 'left-info' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: 'login-content' },
+          { className: 'login-content first-login' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Row"],
-            { className: 'grey darken-4 sign-up-form' },
+            { className: 'grey darken-4 sign-up-form login-landing' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'email', label: 'Email', s: 12 }),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_materialize__["Input"], { type: 'password', label: 'password', s: 12 })
           ),
@@ -19249,7 +19249,7 @@ var LogIn = function (_Component) {
   LogIn.prototype.render = function render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: 'login-content' },
+      { className: 'login-content login-view' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Row"],
         { className: 'grey darken-4 sign-up-form' },
@@ -19436,22 +19436,26 @@ var AboutView = function (_Component) {
       'div',
       { className: 'about-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'header',
-        { className: 'title' },
-        'About Us'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: 'about-info' },
+        { className: 'about-text' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          { className: 'flow-text' },
-          'Queremos solucionar la falta de fuentes electr\xF3nicas de calidad en el \xE1rea de humanidades. El tiempo dedicado a la b\xFAsqueda de documentos para cualquier tipo de investigaci\xF3n ocupa un gran porcentaje del tiempo del investigador.'
+          'header',
+          { className: 'title' },
+          'About Us'
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Este tiempo perdido se puede reducir enormemente, por eso Bookcase busca ser una herramienta en cualquier tipo de investigaci\xF3n.'
+          'div',
+          { className: 'paragraph' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'Queremos solucionar la falta de fuentes electr\xF3nicas de calidad en el \xE1rea de humanidades. El tiempo dedicado a la b\xFAsqueda de documentos para cualquier tipo de investigaci\xF3n ocupa un gran porcentaje del tiempo del investigador.'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'Este tiempo perdido se puede reducir enormemente, por eso Bookcase busca ser una herramienta en cualquier tipo de investigaci\xF3n.'
+          )
         )
       )
     );
@@ -19473,11 +19477,13 @@ var AboutView = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_materialize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_materialize__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_router_dom__ = __webpack_require__(6);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -19524,9 +19530,17 @@ var ReadingView = function (_Component) {
         )
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Button"],
-        { className: 'deep-orange accent-3' },
-        'Add to a Project'
+        'div',
+        { className: 'reading-boton' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Button"],
+          { className: 'deep-orange accent-3' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+            { to: '/projectView' },
+            'Add to a Project'
+          )
+        )
       )
     );
   };
@@ -19573,50 +19587,54 @@ var CategoriesView = function (_Component) {
       { className: 'categories-view-content' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        null,
+        { className: 'categories-back' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'h2',
+          'div',
           null,
-          'All Categories'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Collection"],
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          { className: 'grey darken-4 sign-up-for' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/readingView', className: 'read-links' },
-            'Le\xF3n-Portilla, Miguel, La Filosof\xEDa n\xE1huatl: estudiada en sus fuentes'
+            'h2',
+            null,
+            'All Documents'
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          { className: 'grey darken-4 sign-up-for' },
+          __WEBPACK_IMPORTED_MODULE_1_react_materialize__["Collection"],
+          { className: 'collection' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/readingView', className: 'read-links' },
-            'Fragio, Alberto, Paradigmas para una metaforolog\xEDa del cosmos: Hans Blumenberg y las met\xE1foras contempor\xE1neas del universo'
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          { className: 'grey darken-4 sign-up-for' },
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
+            { className: 'grey darken-4 sign-up-for' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+              { to: '/readingView', className: 'read-links' },
+              'Le\xF3n-Portilla, Miguel, La Filosof\xEDa n\xE1huatl: estudiada en sus fuentes'
+            )
+          ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/readingView', className: 'read-links' },
-            'M\xE9ndez Rubio, Antonio, Comunicaci\xF3n musical y cultura popular: una introducci\xF3n cr\xEDtica'
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
-          { className: 'grey darken-4 sign-up-for' },
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
+            { className: 'grey darken-4 sign-up-for' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+              { to: '/readingView', className: 'read-links' },
+              'Fragio, Alberto, Paradigmas para una metaforolog\xEDa del cosmos: Hans Blumenberg y las met\xE1foras contempor\xE1neas del universo'
+            )
+          ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: '/readingView', className: 'read-links' },
-            '"Argod, Pascale, The art of sketching: 400 years of travel diaries"'
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
+            { className: 'grey darken-4 sign-up-for' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+              { to: '/readingView', className: 'read-links' },
+              'M\xE9ndez Rubio, Antonio, Comunicaci\xF3n musical y cultura popular: una introducci\xF3n cr\xEDtica'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_materialize__["CollectionItem"],
+            { className: 'grey darken-4 sign-up-for' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+              { to: '/readingView', className: 'read-links' },
+              '"Argod, Pascale, The art of sketching: 400 years of travel diaries"'
+            )
           )
         )
       )
